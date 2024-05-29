@@ -23,7 +23,9 @@
             Welcome!
         </TextBlock>
         
-        <StackPanel>
+        <StackPanel 
+            Width="200" 
+            Spacing="5">
             <TextBox 
                 Background="#F3F3F3" 
                 Watermark="User">
