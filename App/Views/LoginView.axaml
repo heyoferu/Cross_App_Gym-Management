@@ -19,7 +19,14 @@
             Watermark="Password">
         </TextBox>
         
-        <Button>
+        <Button
+            Background="#0070CB"
+            Foreground="White"
+            CornerRadius="15"
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            Width="90"
+            Height="50">
             Login
         </Button>
     </StackPanel>
