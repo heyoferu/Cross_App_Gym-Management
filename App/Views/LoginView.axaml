@@ -4,4 +4,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="App.Views.LoginView">
+    
+    <StackPanel 
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Center">
+        <TextBox 
+            Background="#F3F3F3" 
+            Watermark="User">
+        </TextBox>
+                
+        <TextBox 
+            Background="#F3F3F3" 
+            PasswordChar="*" 
+            Watermark="Password">
+        </TextBox>
+    </StackPanel>
 </UserControl>
