@@ -52,6 +52,8 @@
             Background="#0070CB"
             Foreground="White"
             CornerRadius="15"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
             VerticalContentAlignment="Center"
             HorizontalContentAlignment="Center"
             Width="90"
