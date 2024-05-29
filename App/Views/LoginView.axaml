@@ -36,6 +36,13 @@
             </TextBox>
         </StackPanel>
         
+        <TextBox
+            Background="#F3F3F3"
+            Watermark="Token"
+            TextWrapping="Wrap"
+            IsReadOnly="True">
+        </TextBox>
+        
         <Button
             Background="#0070CB"
             Foreground="White"
