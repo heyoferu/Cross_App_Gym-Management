@@ -62,7 +62,9 @@
                 </SplitView.Pane>
                 
                 <SplitView.Content>
-
+                        <Border CornerRadius="15,0,0,0" Background="White">
+                                <TransitioningContentControl Content="{Binding ContentViewModel}"></TransitioningContentControl>
+                        </Border>
                 </SplitView.Content>
         </SplitView>
 </Window>
