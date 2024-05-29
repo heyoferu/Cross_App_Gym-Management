@@ -43,12 +43,12 @@
         </StackPanel>
         
         <TextBlock
-            IsVisible="{Binding IsLoginMsgHide}"
+            IsVisible="{Binding IsLoginMsgVisible}"
             Text="{Binding LoginMsg}">
         </TextBlock>
         
         <TextBox
-            IsVisible="{Binding IsTokenHide}"
+            IsVisible="{Binding IsTokenVisible}"
             Background="#F3F3F3"
             Watermark="Token"
             TextWrapping="Wrap"
