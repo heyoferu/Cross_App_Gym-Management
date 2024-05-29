@@ -14,50 +14,50 @@
         <SplitView IsPaneOpen="True" OpenPaneLength="60" DisplayMode="Inline" PaneBackground="#F3F3F3" Margin="0,45,0,0">
                 <SplitView.Pane>
                         <StackPanel Spacing="10" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50">
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowLogin}">
                                         <Button.Content>
                                                 <Image Source="../Assets/login.png"></Image>
                                         </Button.Content>
                                 </Button>
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowDashboard}">
                                         <Button.Content>
                                                 <Image Source="../Assets/dashboard.png"></Image>
                                         </Button.Content>
                                 </Button>
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowAddUsers}">
                                         <Button.Content>
                                                 <Image Source="../Assets/user-up.png"></Image>
                                         </Button.Content>
                                 </Button>
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowUsers}">
                                         <Button.Content>
                                                 <Image Source="../Assets/users.png"></Image>
                                         </Button.Content>
                                 </Button>
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowUpdateUser}">
                                         <Button.Content>
                                                 <Image Source="../Assets/user-cog.png"></Image>
                                         </Button.Content>
                                 </Button>
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowDeleteUser}">
                                         <Button.Content>
                                                 <Image Source="../Assets/user-x.png"></Image>
                                         </Button.Content>
                                 </Button>
                                 
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowAccesses}">
                                         <Button.Content>
                                                 <Image Source="../Assets/door-enter.png"></Image>
                                         </Button.Content>
                                 </Button>
                                 
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowSales}">
                                         <Button.Content>
                                                 <Image Source="../Assets/shopping-cart.png"></Image>
                                         </Button.Content>
                                 </Button>
                                 
-                                <Button Background="Transparent">
+                                <Button Background="Transparent" Command="{Binding ShowProducts}">
                                         <Button.Content>
                                                 <Image Source="../Assets/building-store.png"></Image>
                                         </Button.Content>
