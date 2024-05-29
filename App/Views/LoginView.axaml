@@ -18,5 +18,9 @@
             PasswordChar="*" 
             Watermark="Password">
         </TextBox>
+        
+        <Button>
+            Login
+        </Button>
     </StackPanel>
 </UserControl>
