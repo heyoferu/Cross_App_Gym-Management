@@ -45,6 +45,7 @@
         </TextBox>
         
         <TextBlock
+            IsVisible="False"
             Text="Login Message">
         </TextBlock>
         
