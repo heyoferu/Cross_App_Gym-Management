@@ -26,7 +26,7 @@
         </TextBlock>
         
         <StackPanel 
-            Width="200" 
+            Width="300" 
             Spacing="5">
             <TextBox 
                 Background="#F3F3F3" 
