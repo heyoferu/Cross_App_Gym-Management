@@ -18,16 +18,18 @@
             <Image Source="../Assets/logo.png"></Image>
         </Border>
         
-        <TextBox 
-            Background="#F3F3F3" 
-            Watermark="User">
-        </TextBox>
+        <StackPanel>
+            <TextBox 
+                Background="#F3F3F3" 
+                Watermark="User">
+            </TextBox>
                 
-        <TextBox 
-            Background="#F3F3F3" 
-            PasswordChar="*" 
-            Watermark="Password">
-        </TextBox>
+            <TextBox 
+                Background="#F3F3F3" 
+                PasswordChar="*" 
+                Watermark="Password">
+            </TextBox>
+        </StackPanel>
         
         <Button
             Background="#0070CB"
