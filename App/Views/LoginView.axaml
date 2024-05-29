@@ -30,13 +30,15 @@
             Spacing="5">
             <TextBox 
                 Background="#F3F3F3" 
-                Watermark="User">
+                Watermark="User"
+                Text="{Binding Username}">
             </TextBox>
                 
             <TextBox 
                 Background="#F3F3F3" 
                 PasswordChar="*" 
-                Watermark="Password">
+                Watermark="Password"
+                Text="{Binding Password}">
             </TextBox>
         </StackPanel>
         
