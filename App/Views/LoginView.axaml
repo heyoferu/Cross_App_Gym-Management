@@ -52,8 +52,8 @@
         </TextBox>
         
         <TextBlock
-            IsVisible="False"
-            Text="Login Message">
+            IsVisible="{Binding IsLoginMsgHide}"
+            Text="{Binding LoginMsg}">
         </TextBlock>
         
         <Button
