@@ -52,6 +52,8 @@
             Background="#F3F3F3"
             Watermark="Token"
             TextWrapping="Wrap"
+            Width="300"
+            MaxHeight="400"
             IsReadOnly="True"
             Text="{Binding Token}">
         </TextBox>
