@@ -18,6 +18,11 @@
             <Image Source="../Assets/logo.png"></Image>
         </Border>
         
+        <TextBlock
+            HorizontalAlignment="Center">
+            Welcome!
+        </TextBlock>
+        
         <StackPanel>
             <TextBox 
                 Background="#F3F3F3" 
