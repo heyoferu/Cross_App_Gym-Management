@@ -10,6 +10,8 @@
         VerticalAlignment="Center">
         
         <Border
+            BoxShadow="0 0 20 0 DarkGray"
+            CornerRadius="100"
             Width="100"
             Height="100">
             <Image Source="../Assets/logo.png"></Image>
