@@ -7,14 +7,62 @@
         x:Class="App.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="App">
+        Title="App"
+        Background="#F3F3F3"
+        >
 
-    <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
+        <SplitView IsPaneOpen="True" OpenPaneLength="60" DisplayMode="Inline" PaneBackground="#F3F3F3" Margin="0,45,0,0">
+                <SplitView.Pane>
+                        <StackPanel Spacing="10" VerticalAlignment="Center" HorizontalAlignment="Center" Width="50">
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/dashboard.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/user-up.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/users.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/user-cog.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/user-x.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/door-enter.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/shopping-cart.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                
+                                <Button Background="Transparent">
+                                        <Button.Content>
+                                                <Image Source="../Assets/building-store.png"></Image>
+                                        </Button.Content>
+                                </Button>
+                                
+                        </StackPanel>
+                </SplitView.Pane>
+                
+                <SplitView.Content>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+                </SplitView.Content>
+        </SplitView>
 </Window>
