@@ -43,11 +43,12 @@
         </StackPanel>
         
         <TextBox
-            IsVisible="False"
+            IsVisible="{Binding IsTokenHide}"
             Background="#F3F3F3"
             Watermark="Token"
             TextWrapping="Wrap"
-            IsReadOnly="True">
+            IsReadOnly="True"
+            Text="{Binding Token}">
         </TextBox>
         
         <TextBlock
