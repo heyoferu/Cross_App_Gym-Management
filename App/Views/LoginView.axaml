@@ -43,6 +43,7 @@
         </StackPanel>
         
         <TextBlock
+            HorizontalAlignment="Center"
             IsVisible="{Binding IsLoginMsgVisible}"
             Text="{Binding LoginMsg}">
         </TextBlock>
