@@ -24,5 +24,17 @@ public class LoginViewModel : ViewModelBase
         get => _isTokenVisible;
         set => this.RaiseAndSetIfChanged(ref _isTokenVisible, value);
     }
+
+    public string? LoginMsg
+    {
+        get => _loginMsg;
+        set => this.RaiseAndSetIfChanged(ref _loginMsg, value);
+    }
+
+    public bool IsLoginMsgVisible
+    {
+        get => _isLoginMsgVisible;
+        set => this.RaiseAndSetIfChanged(ref _isLoginMsgVisible, value);
+    }
     
 }
