@@ -18,5 +18,11 @@ public class LoginViewModel : ViewModelBase
         get => _token;
         set => this.RaiseAndSetIfChanged(ref _token, value);
     }
+
+    public bool IsTokenVisible
+    {
+        get => _isTokenVisible;
+        set => this.RaiseAndSetIfChanged(ref _isTokenVisible, value);
+    }
     
 }
